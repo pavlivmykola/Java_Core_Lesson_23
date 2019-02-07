@@ -83,9 +83,6 @@ public class Fraction {
 	
 	
 	public void clearFraction() {
-		Iterator<Deputy> iterator = fraction.iterator();
-		while (iterator.hasNext()) {
-			iterator.remove();
-		}
+		fraction.clear();
 	}		
 }
